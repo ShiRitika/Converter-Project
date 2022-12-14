@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+/*----------css for background color switcher start-----------------*/
+#background-color-switcher{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: solid gray 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#white{
+    background-color: white;
+}
+#aqua{
+    background-color: aqua;
+}
+#violet{
+    background-color: violet;
+}
+#black{
+    background-color: black;
+}
+/*----------css for tempreture converter start-----------------*/
+body{ 
+    padding: 50px 100px;
+}
+
+h1{
+    text-align: center;
+    background-color: #0067B0;
+    color: aliceblue;
+    padding: 10px;
+    margin: 0px;
+}
+
+#container{
+    text-align: center;
+    background-color: rgb(124, 184, 229);
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.input-div{
+    display: inline-block;
+}
+
+.input{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+}
+
+label{
+    font-size: 22px;
+}
+
+
+/*----------css for word counter converter start-----------------*/
+#textbox{
+    width: 100%;
+    border-color: #0067B0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#para{
+    text-align: center;
+    background-color: #0067B0;
+    font-size: 24px;
+    font-weight: 600;
+    color: beige;
+    padding: 10px;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+/*----------code for stop watch------------------*/
+#stopWatch-container{
+    background-color: #2c3e50;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    color: #d7dfed;
+
+}
+
+.digit{
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+}
+
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.watch-btn{ 
+    padding:7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+#start{
+    background-color: #097660;
+}
+#stop{
+    background-color: #116fad;
+}
+#reset{
+    background-color: #e74c3c;
+}

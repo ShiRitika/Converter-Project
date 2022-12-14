@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Converter</title>
+    <!-- linking CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- /linking CSS -->
+</head>
+<body>
+    <!-- code for background-color-switcher start -->
+    <div id="background-color-switcher">
+        <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#ce9aff')"></span>
+        <span class="btn" id="black"- onclick="changeBG('#000000')"></span>
+    </div>
+     <!-- /code for background-color-switcher END -->
+
+      <!-- code for temperature converter start -->
+    <h1>Tempreture Converter</h1>
+    <div id="container">
+        <div class="input-div">
+            <label for="cel">Celsius</label><br>
+            <input type="number" value="0" id="cel" class="input">
+        </div>
+        <div class="input-div">
+            <label for="fah">Fahrenheit</label><br>
+            <input type="number" value="32" id="fah" class="input">
+        </div>
+    </div><hr>
+    <!-- /code for temperature converter END -->
+    
+    <!-- code for word counter start -->
+    <h1>Word & Character Counter</h1>
+    <textarea id="textbox" cols="30" rows="10"></textarea>
+    <p id="para">
+        <span id="word">0</span> Words and
+        <span id="char">0</span> Characters.
+    </p><hr>
+     <!-- /code for word counter END -->
+
+    <!--------code for stop watch start--------->
+    <h1>Stop Watch</h1>
+    <div id="stopWatch-container">
+        <div id="time">
+            <span class="digit" id="hr">00</span>
+            <span class="txt">Hr</span>
+            <span class="digit" id="min">00</span>
+            <span class="txt">Min</span>
+            <span class="digit" id="sec">00</span>
+            <span class="txt">Sec</span>
+            <span class="digit" id="count">00</span>
+        </div>
+        <div id="btn-container">
+            <button class="watch-btn" id="start" onclick="start()">Start</button>
+            <button class="watch-btn" id="stop" onclick="stop()">Stop</button>
+            <button class="watch-btn" id="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <!--------/code for stop watch END---------->
+
+    <!-- linking js -->
+    <script src="script.js"></script>
+    <!-- /linking js -->
+</body>
+</html>
